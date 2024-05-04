@@ -1,0 +1,13 @@
+services:
+  backend:
+    image: backend
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "7107:80"
+
+  frontend:
+    image: frontend
+    ports:
+      - "8000:5173"
+
