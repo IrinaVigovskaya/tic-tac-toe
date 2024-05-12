@@ -59,7 +59,7 @@ namespace TestController.Controllers
 			if (_gameBoard.HaveError(Board_Row1, Board_Row2, Board_Row3))
 			{
 				_hub.Clients.All.SendAsync("Draw. The board is complete");
-				moveData.message = "Draw";
+				moveData.message = "Ничья";
 				return Ok(moveData);
 			}
 			if (row<1 || col<1|| row>3 || col > 3)
@@ -139,13 +139,13 @@ namespace TestController.Controllers
 						if(Priority == 0)
 						{
 							_hub.Clients.All.SendAsync("The second player won");
-							moveData.message = "The player for the crosses won";
+							moveData.message = "Игрок за крестики победил";
 
 						}
 						else
 						{
 							_hub.Clients.All.SendAsync("The first player won");
-							moveData.message = "The player won by noughts";
+							moveData.message = "Игрок за нолики победил";
 				}
 					}
 					return Ok(moveData);
@@ -226,6 +226,6 @@ namespace TestController.Controllers
 /*[HttpGet ("GiveBoard")]
         public ActionResult StartBoard()
         {
-            //������� �������
+            //Возврат таблицы
             return Ok(_gameBoard.PrintBoard());
         }*/

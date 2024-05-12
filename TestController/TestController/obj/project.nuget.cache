@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nCP1h6PuQhrUn12TxCIj1dn/Fa0KZoM9ocwV4oYprpGUdFVW5k4u/QqzNaApMGpFmVOAeqXW6tCfQRbMdRvl4w==",
+  "dgSpecHash": "1doEVAa3oemENLlvLeIPaqvK1bYRjD6SWpwA4o7v8kcv2gXMOmXmf1xjlj6Ua+FR3J5c37KBpGfmf9RVMz9bvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Учёба\\Разработка\\TestController\\TestController\\TestController.csproj",
+  "projectFilePath": "C:\\Work\\TestController\\TestController\\TestController.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnet.mvc\\5.3.0\\microsoft.aspnet.mvc.5.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnet.razor\\3.3.0\\microsoft.aspnet.razor.3.3.0.nupkg.sha512",

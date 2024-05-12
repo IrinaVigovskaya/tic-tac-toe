@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Учёба\\Разработка\\TestController\\TestController\\TestController.csproj": {}
+    "C:\\Work\\TestController\\TestController\\TestController.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Учёба\\Разработка\\TestController\\TestController\\TestController.csproj": {
+    "C:\\Work\\TestController\\TestController\\TestController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Учёба\\Разработка\\TestController\\TestController\\TestController.csproj",
+        "projectUniqueName": "C:\\Work\\TestController\\TestController\\TestController.csproj",
         "projectName": "TestController",
-        "projectPath": "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Учёба\\Разработка\\TestController\\TestController\\TestController.csproj",
+        "projectPath": "C:\\Work\\TestController\\TestController\\TestController.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Учёба\\Разработка\\TestController\\TestController\\obj\\",
+        "outputPath": "C:\\Work\\TestController\\TestController\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

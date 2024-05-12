@@ -126,9 +126,13 @@ const SendMove = async () => {
               else{
                 gamer = "Сейчас ходят нолики"
               }
-        if(response.data.message == "Игрок за крестики победил" || response.data.message == "Игрок за нолики победил" || response.data.message == "Ничья"){
-          gamer = response.data.message;
-          isDisabled = true;
+        if(response.data.message == "The player for the crosses won")
+          gamer = "Игрок за крестики победил";
+        if(response.data.message == "The player won by noughts")
+          gamer = "Игрок за нолики победил";
+        if(response.data.message == "Draw"){
+          gamer = "Ничья";
+        isDisabled = true;
         }
       }
     } catch (error) {
